@@ -1,7 +1,8 @@
 // Import Classes Here
+const Product = require("./classes/Product.js")
 
-
-
+const carrots = new Product("Carrots", 4, "Bushel of carrots that have been freshly harvested for you");
+console.log(carrots);
 
 
 
